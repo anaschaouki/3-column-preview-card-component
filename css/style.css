@@ -18,3 +18,134 @@
   padding: 0;
   box-sizing: border-box;
 }
+h2{
+  font-family: "big shoulders display";
+  font-size:2em;
+  text-transform:uppercase;
+  margin-bottom:2rem;
+  margin-left:1rem;
+  margin-top:2rem;
+}
+main{
+  align-items: center;
+  display: flex;
+  min-height:100vh;
+  font-family:"Lexend deca";
+  color:white;
+ 
+}
+/* container */
+.container{
+  margin: 0 auto;
+  max-width: 900px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+  
+}
+
+/* sedans class */
+.sedans{
+  background-color:var(--Bright-orange);
+  padding:3rem 1rem 3rem 1rem;
+}
+/* suv class */
+.suvs{
+  background-color:var(---Dark-cyan);
+ padding:3rem 1rem 3rem 1rem;
+
+}
+/* luxury class */
+.luxury{
+  background-color:var(--Very-dark-cyan);
+  padding:3rem 1rem 3rem 1rem;
+  
+  
+}
+/* text */
+.text{
+  color: var(--Transparent-white-paragraphs);
+  margin-left:1rem;
+  margin-bottom: 7rem;
+  line-height: 1.6rem;
+
+}
+/* images */
+.images{
+  margin-top:0rem;
+  margin-left:1rem;
+
+}
+/* button */
+.button{
+  margin-left:2rem;
+  margin-top:0;
+  
+  
+}
+.button a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding:17px; 
+  border-radius:0.5rem 1.5rem 0.5rem 1.5rem; 
+  box-shadow: 1px 4px 15px 3px rgba(0,0,0,0.30);
+  transition: 0.5s;
+  /* margin:0; */
+ 
+}
+.sedans .button a{
+  color:orange;
+}
+.suvs .button a{
+  color:var(---Dark-cyan);
+}
+.luxury .button a{
+  color:var(--Very-dark-cyan);
+}
+/* hover */
+.button :hover{
+  background-color:transparent;
+  border:white;
+}
+.button a:hover{
+  color:white;
+  border:white;
+}
+/* media */
+@media only screen and (max-width: 768px) {
+
+  
+  main {
+    justify-content: center;
+    flex-direction: column;
+    margin:0;
+    margin-bottom:4rem;
+    
+  }
+  .container {
+    grid-template-columns: 1fr;
+    width:375px;
+    height:673px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    
+  }
+.sedans{
+  padding-left:3rem ;
+  padding-right:3rem;
+}
+.suvs{
+  padding-left:3rem ;
+  padding-right:3rem;
+}
+.luxury{
+  padding-left:3rem ;
+  padding-right:3rem;
+}
+.text{
+  margin-bottom:3rem;
+}
+}
+
