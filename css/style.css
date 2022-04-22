@@ -21,7 +21,7 @@
 body{
   background-color: rgb(198, 187, 187);
 }
-h2{
+.heading{
   font-family: "big shoulders display";
   font-size:2em;
   text-transform:uppercase;
