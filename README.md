@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [3-column preview card component solution](https://your-solution-url.com)
+- Live Site URL: [3-column preview card component site](https://chimerical-horse-d97a60.netlify.app/)
 
 ## My process
 
@@ -55,7 +55,6 @@ ps:i added my own shape in the "learn more" link.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@anaschaouki](https://www.frontendmentor.io/profile/anaschaouki)
 
 ## Acknowledgments
