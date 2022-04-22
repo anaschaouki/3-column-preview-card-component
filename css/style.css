@@ -18,6 +18,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(198, 187, 187);
+}
 h2{
   font-family: "big shoulders display";
   font-size:2em;
